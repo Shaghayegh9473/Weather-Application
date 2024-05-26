@@ -14,37 +14,56 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <div class="weather-app" id="">
+    <div class="weather-app" id="weather-app">
       <header>
-        <form action="" id="">
-          <input type="search" placeholder="Enter a city..." class="" id="" />
-          <input type="button" value="Search" class="" id="" />
+        <form class="search-form" id="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            class="search-city"
+            id="search-city"
+          />
+          <input
+            type="button"
+            value="Search"
+            class="search-button"
+            id="search-button"
+          />
         </form>
       </header>
       <main>
-        <h1 id="">Tehran</h1>
-        <div>
-          <p>
-            <span id="">Sunday 1:15</span>, <span id="">clear sky</span>
-            <br />
-            Humidity: <strong id="">51%</strong>, Wind:
-            <strong id="">4.12km/h</strong>
-          </p>
-        </div>
-        <div>
-          <div id="icon"></div>
-          <div id="current-temp"></div>
-          <div id="unit">℃</div>
+        <div class="weather">
+          <div>
+            <h1 class="weather-city" id="weather-city">Tehran</h1>
+            <p class="weather-detail">
+              <span id="time">Sunday 1:15</span>,
+              <span id="weather-cond">clear sky</span>
+              <br />
+              Humidity: <strong id="humidity">51%</strong>, Wind:
+              <strong id="speed">4.12km/h</strong>
+            </p>
+          </div>
+          <div class="temp-container">
+            <div id="icon"></div>
+            <div id="current-temp">20</div>
+            <div id="unit">℃</div>
+          </div>
         </div>
       </main>
       <footer>
         This project was coded by
-        <a href="https://github.com/Shaghayegh9473">Shaghayegh K.</a>, is
-        <a href="https://github.com/Shaghayegh9473/Weather-Application"
+        <a href="https://github.com/Shaghayegh9473" target="_blank"
+          >Shaghayegh K.</a
+        >, is
+        <a
+          href="https://github.com/Shaghayegh9473/Weather-Application"
+          target="_blank"
           >open-sourced on GitHub</a
         >
         and hosted on
-        <a href="https://tempestas-weather-app.netlify.app/">Netlify</a>
+        <a href="https://tempestas-weather-app.netlify.app/" target="_blank"
+          >Netlify</a
+        >
       </footer>
     </div>
     <script src="src/index.js"></script>

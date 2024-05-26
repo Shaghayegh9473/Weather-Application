@@ -1,12 +1,99 @@
 body {
   /* Have to change the background color with images connected with weather */
-  background-color: #f9f7fe;
+  background-color: hsl(257, 78%, 98%);
+  font-family: "Roboto", sans-serif;
 }
+
+header {
+  /* have to change the border-bottom color */
+  border-bottom: 1px solid #f9f7fe;
+  padding: 0 0 30px 0;
+}
+
+a {
+  /* should change the color */
+  color: blueviolet;
+}
+
+footer {
+  /* have to change the border-top color */
+  border-top: 1px solid #f9f7fe;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 30px 0 0 0;
+  text-align: center;
+}
+
 .weather-app {
+  /* should change the background color to transparent with a little bit of opacity */
   background-color: #fff;
   max-width: 600px;
   margin: 45px auto;
   padding: 30px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
+}
+
+.search-city {
+  /* should change the background color */
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.search-button {
+  color: #fff;
+  /* should change the background color */
+  background-color: blueviolet;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  margin-left: 5px;
+  padding: 15px 30px;
+}
+
+.weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.weather-detail {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  /* should change the color */
+  color: rgba(39, 33, 66, 0.4);
+}
+
+.weather-detail strong {
+  /* should change the color */
+  color: blueviolet;
+}
+
+.temp-container {
+  display: flex;
+}
+
+.icon {
+  width: 88px;
+  height: 88px;
+}
+
+.current-temp {
+  font-size: 88px;
+  font-weight: bold;
+  line-height: 88px;
+}
+
+.unit {
+  margin-top: 16px;
 }
