@@ -7,6 +7,7 @@ body {
 header {
   /* have to change the border-bottom color */
   border-bottom: 1px solid #f9f7fe;
+  margin-bottom: 30px;
   padding: 0 0 30px 0;
 }
 
@@ -18,7 +19,8 @@ a {
 footer {
   /* have to change the border-top color */
   border-top: 1px solid #f9f7fe;
-  font-size: 14px;
+  margin-top: 30px;
+  font-size: 13.5px;
   color: rgba(0, 0, 0, 0.6);
   padding: 30px 0 0 0;
   text-align: center;
@@ -68,7 +70,6 @@ footer {
 
 .weather-city {
   margin: 0;
-  margin-top: 20px;
   font-size: 38px;
   line-height: 48px;
 }
@@ -102,5 +103,6 @@ footer {
 }
 
 .unit {
-  margin-top: 16px;
+  margin-top: 6px;
+  font-size: 28px;
 }
